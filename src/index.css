@@ -1,0 +1,34 @@
+/* ===== RESET & DESIGN TOKENS ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --crimson:      #C0392B;
+  --crimson-dark: #922B21;
+  --saffron:      #E67E22;
+  --gold:         #F4C84A;
+  --warm-bg:      #1A0D08;
+  --warm-mid:     #2C1810;
+  --warm-light:   #3D2314;
+  --text-primary: #F5ECD5;
+  --text-muted:   #B09A7A;
+  --glass-border: rgba(244, 200, 74, 0.18);
+  --player-h:     86px;
+  --topbar-h:     52px;
+  --radius-lg:    20px;
+  --radius-md:    12px;
+  --radius-sm:    8px;
+}
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Inter', 'Outfit', sans-serif;
+  background: var(--warm-bg);
+  color: var(--text-primary);
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
