@@ -11,7 +11,7 @@ export function usePlayer() {
   const [isShuffled, setIsShuffled] = useState(true);
   const isShuffledRef = useRef(true);
   const [isMuted, setIsMuted] = useState(false);
-  const [volume, setVolume] = useState(70);
+  const [volume, setVolume] = useState(30);
   const [duration, setDuration] = useState(0);
   const [trackTitle, setTrackTitle] = useState('Loading…');
   const [trackArtist, setTrackArtist] = useState('नेपाली Banger');

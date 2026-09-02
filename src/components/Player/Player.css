@@ -333,9 +333,25 @@
 }
 
 .volume-slider-wrap {
-  width: 80px;
+  width: 100px;
   display: flex;
   align-items: center;
+  gap: 8px;
+}
+
+.volume-text {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  width: 22px;
+  text-align: left;
+  font-variant-numeric: tabular-nums;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.volume-area:hover .volume-text,
+.volume-slider:active + .volume-text {
+  opacity: 1;
 }
 
 .volume-slider {

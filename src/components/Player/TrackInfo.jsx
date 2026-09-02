@@ -12,7 +12,7 @@ export default function TrackInfo({ title, artist }) {
         setShouldScroll(nameRef.current.offsetWidth > wrapRef.current.offsetWidth);
       }
     };
-    
+
     checkScroll();
 
     // Use ResizeObserver to catch font-loads and responsive layout shifts automatically
@@ -37,7 +37,7 @@ export default function TrackInfo({ title, artist }) {
         >
           {title}
         </span>
-        
+
         {/* Visible scrolling span */}
         <span className={`track-name ${shouldScroll ? 'scrolling' : ''}`}>
           {shouldScroll ? `${title}   •   ${title}` : title}
