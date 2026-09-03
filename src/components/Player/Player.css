@@ -401,6 +401,7 @@
 
   .player-left {
     position: static;
+    width: 100%;
     max-width: 100%;
     flex-direction: column;
     align-items: center;
@@ -408,6 +409,7 @@
   }
 
   .track-info {
+    width: 100%;
     text-align: center;
     max-width: 90%;
   }
