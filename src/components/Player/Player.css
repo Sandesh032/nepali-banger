@@ -409,6 +409,7 @@
 
   .track-info {
     text-align: center;
+    max-width: 90%;
   }
 
   .player-center {
@@ -416,7 +417,8 @@
   }
 
   .player-seek-top {
-    display: none;
+    display: block;
+    top: 0;
   }
 
   .player-right {

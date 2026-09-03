@@ -19,6 +19,12 @@
   --radius-sm:    8px;
 }
 
+@media (max-width: 768px) {
+  :root {
+    --player-h: 200px;
+  }
+}
+
 html, body, #root {
   height: 100%;
   overflow: hidden;
